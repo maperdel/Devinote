@@ -1,5 +1,3 @@
-from turtle import onclick
-
 from app.core.db_error_handler import handle_db_errors
 from app.core.exceptions import InvalidCredentialsError, NotFoundError
 from app.core.unit_of_work import UnitOfWork
